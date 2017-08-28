@@ -642,7 +642,7 @@ body.project .dropdown-content {
 
 #then .carousel-cell {
 	width: 40%;
-	max-width: 400px;
+	/* max-width: 400px; */
 	margin-right: 10px;
 }
 
@@ -776,6 +776,8 @@ body.project .dropdown-content {
 		max-width: 700px;
 		height: auto;
 		vertical-align: middle;
+		display: flex;
+		margin: 0 auto;
 	}
 
 	.modal .flickity-prev-next-button {
